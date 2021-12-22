@@ -1,7 +1,12 @@
-// import { StatusBar } from 'expo-status-bar';
+import { StatusBar } from 'expo-status-bar';
 
-import Lists from './components/lists';
+import FlatLists from './components/FlatList';
 
 export default function App() {
-  return <Lists />;
+  return (
+    <>
+      <FlatLists />;
+      <StatusBar />
+    </>
+  );
 }
